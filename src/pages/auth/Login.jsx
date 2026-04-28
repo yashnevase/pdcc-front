@@ -141,7 +141,7 @@ const Login = () => {
                                 className="inline-flex items-center gap-2 text-sm font-medium text-blue-700 hover:text-blue-800"
                             >
                                 <KeyRound className="h-4 w-4" />
-                                Create new password
+                                Forgot password
                             </Link>
                         </div>
 
