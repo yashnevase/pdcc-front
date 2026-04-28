@@ -73,7 +73,7 @@ const Login = () => {
 
                     <div className="space-y-1">
                         <p className="text-xs sm:text-sm uppercase tracking-[0.18em] text-slate-600">
-                            PDCC
+                            Zilha Parishad 
                         </p>
                         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
                             IWMS

@@ -87,7 +87,7 @@ const ForgotPassword = () => {
                         <img src={pdcc} alt="PDCC" className="h-8 w-8 sm:h-10 sm:w-10 object-contain rounded-full" />
                     </div>
                     <div className="space-y-1">
-                        <p className="text-xs sm:text-sm uppercase tracking-[0.18em] text-slate-600">PDCC</p>
+                        <p className="text-xs sm:text-sm uppercase tracking-[0.18em] text-slate-600">Zilha Parishad</p>
                         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">IWMS</h1>
                         <p className="text-xs sm:text-sm text-slate-600">Integrated Web Management System</p>
                     </div>
