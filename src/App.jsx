@@ -6,6 +6,8 @@ import { restoreUser } from "./redux/slices/authSlice";
 import { getUser, isAuthenticated, clearTokens } from "./utils/auth.utils";
 import { ErrorBoundary } from './components/common/ErrorBoundary';
 
+
+//Hello World
 function App() {
   const dispatch = useAppDispatch();
   const isAuth = useAppSelector(state => state.auth.isAuthenticated);
