@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Card } from '../../components/common/Card';
 import { Input } from '../../components/common/Input';
 import { Button } from '../../components/common/Button';
-import { Lock, User, Eye, EyeOff } from 'lucide-react';
+import { KeyRound, Lock, User, Eye, EyeOff } from 'lucide-react';
 import { useAppDispatch, useAppSelector } from '../../redux/store';
 import { loginUser } from '../../redux/slices/authSlice';
 import toast from 'react-hot-toast';
@@ -134,6 +134,16 @@ const Login = () => {
                             </Button>
 
                         </form>
+
+                        <div className="flex justify-center">
+                            <Link
+                                to="/forgot-password"
+                                className="inline-flex items-center gap-2 text-sm font-medium text-blue-700 hover:text-blue-800"
+                            >
+                                <KeyRound className="h-4 w-4" />
+                                Create new password
+                            </Link>
+                        </div>
 
                         <p className="text-center text-xs text-slate-500">
                             &copy; {new Date().getFullYear()} Integrated Web Management System

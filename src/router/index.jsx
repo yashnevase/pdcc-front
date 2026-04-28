@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import Layout from '../components/layout/Layout';
 import Login from '../pages/auth/Login';
+import ForgotPassword from '../pages/auth/ForgotPassword';
+import ResetPassword from '../pages/auth/ResetPassword';
 
 // Lazy load pages
 const Dashboard = React.lazy(() => import('../pages/Dashboard'));
@@ -60,6 +62,14 @@ const router = createBrowserRouter([
     {
         path: '/login',
         element: <Login />,
+    },
+    {
+        path: '/forgot-password',
+        element: <ForgotPassword />,
+    },
+    {
+        path: '/reset-password',
+        element: <ResetPassword />,
     },
     {
         path: '/',
