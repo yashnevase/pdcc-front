@@ -20,9 +20,9 @@ dist-ssr/
 # --------------------
 # Environment files
 # --------------------
-# .env
-# .env.*
-# .env.example
+.env
+.env.*
+.env.example
 
 # --------------------
 # Docs & archives
